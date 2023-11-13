@@ -30,3 +30,4 @@ this repository was initially created for a microsoft stu internal event to show
         2. install everything needed on your local pc (but not today - we use gh codespaces!)
 
 ## tasks
+1. 
