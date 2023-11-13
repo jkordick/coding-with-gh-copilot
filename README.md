@@ -46,6 +46,7 @@ this repository was initially created for a microsoft stu internal event to show
     2. create a linux app service plan
     3. use node 18
     4. deploy your app
+2. tbd ...
 
 ### bonus tasks: testing, tbd...
-1. 1. ask github copilot to write you a few tests for your on-click event 
+1. ask github copilot to write you a few tests for your on-click event 
