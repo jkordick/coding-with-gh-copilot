@@ -16,7 +16,8 @@ this repository was initially created for a microsoft stu internal event to show
             2. search for github copilot and github copilot chat
             3. install
             4. reload the page
-        3. open terminal
+        3. install the azure cli tools extension
+        4. open terminal
             1. `cd app`
             2. `npm install`
             3. `npm start` 
