@@ -10,10 +10,8 @@
 		"vscode": {	
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [      
-                "ms-azuretools.azure-dev",
                 "esbenp.prettier-vscode",
-				"GitHub.copilot",
-				"ms-azuretools.vscode-docker"
+				"GitHub.copilot"
 			]
 		}
 	},
@@ -26,10 +24,6 @@
 
 	// Additional devcontainer feature configurations
 	"features": {
-		"ghcr.io/devcontainers/features/docker-in-docker:2": {
-			"version": "latest",
-			"moby": true
-		},
 		"ghcr.io/devcontainers/features/git:1": {
 			"version": "latest"
 		},
