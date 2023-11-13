@@ -9,15 +9,9 @@ this repository was initially created for a microsoft stu internal event to show
     1. microsofties can request access to gh copilot [here](https://repos.opensource.microsoft.com/orgs/MicrosoftCopilot)
     2. everyone else can buy a licence [here](https://copilot.github.com/) (it's free for students + teachers!)
 3. setup
-    1. gh codespace
+    1. gh codespaces
         1. in this github repository click on code & create codespace on main ![create codespaces on main](./images/on-main.png)
-        2. install github copilot extensions
-            1. open extensions tab
-            2. search for github copilot and github copilot chat
-            3. install
-            4. reload the page
-        3. install the azure cli tools extension
-        4. open terminal
+        2. open terminal
             1. `cd app`
             2. `npm install`
             3. `npm start` 

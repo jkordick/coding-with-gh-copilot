@@ -13,3 +13,6 @@ az appservice plan create --name $APP_SERVICE_PLAN --resource-group $RESOURCE_GR
 
 # create an app service
 az webapp create --name $APP_SERVICE --resource-group $RESOURCE_GROUP --plan $APP_SERVICE_PLAN --runtime "NODE:18-lts"
+
+# deploy the app
+az webapp deployment --name $APP_SERVICE --resource-group $RESOURCE_GROUP
