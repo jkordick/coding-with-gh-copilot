@@ -30,4 +30,22 @@ this repository was initially created for a microsoft stu internal event to show
         2. install everything needed on your local pc (but not today - we use gh codespaces!)
 
 ## tasks
-1. 
+
+### warm-up: playing around with html, css and javascript
+1. change the background color to a css gradient of your choice
+2. add a button to the page
+3. add a div that displays a number
+4. add an on-click event to the button that increases the number by 1
+
+> tip: if you do not know how to do something, just ask github copilot chat for help :) 
+
+### main tasks: deployment
+1. open the az-deploy.sh and create an azure deployment for your app with azure cli
+    1. use environment variables for the resource group name, app service plan name, app service name and location
+    1. create azure app service
+    2. create a linux app service plan
+    3. use node 18
+    4. deploy your app
+
+### bonus tasks: testing, tbd...
+1. 1. ask github copilot to write you a few tests for your on-click event 
