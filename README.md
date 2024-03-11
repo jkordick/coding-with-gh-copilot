@@ -26,7 +26,7 @@ this repository was initially created for a microsoft stu internal event to show
 
 ## tasks
 
-### warm-up: playing around with html, css and javascript
+### 🔥 warm-up: playing around with html, css and javascript
 1. open the `app/views/index.ejs` file
 1. change the background color to a css gradient of your choice
 2. add a button to the page
@@ -37,7 +37,7 @@ this repository was initially created for a microsoft stu internal event to show
 
 ### main tasks: 
 
-#### i: input, validation and event handling
+#### :e_mail: i: input, validation and event handling
 
 1. add an input field for an email address and a "Submit" button to the page
     1. bonus points: center it vertically, add a label and a placeholder
@@ -45,7 +45,7 @@ this repository was initially created for a microsoft stu internal event to show
     1. if the email address is valid, display a success message, if the email address is invalid, display an error message
     > tip: use a regular expression to validate the email address
 
-#### ii: write your own scissors, paper, stone game
+#### :scissors: ii: write your own scissors, paper, stone game
 1. add three buttons to the page
     1. one for scissors, one for paper, one for stone
 2. add an on-click event to every button to start a new game
@@ -54,13 +54,13 @@ this repository was initially created for a microsoft stu internal event to show
     > tip: use a random number generator to let the computer choose one of the three options
 3. write tests for your game with all possible outcomes (scissors vs scissors, scissors vs paper, scissors vs stone, paper vs scissors, paper vs paper, paper vs stone, stone vs scissors, stone vs paper, stone vs stone)
 
-#### iii: translate your javascript code to Python
+#### iii: translate your javascript code to python
 1. create a new file in the folder `app` called `game.py`
  > if your codespace asks you if you want to install the python extension, click yes
 2. use github copilot to translate your javascript code to python
 3. run your python code in the terminal and play the game
 
-### bonus task (only locally!!): deployment
+### :trophy: bonus task (only locally!!): deployment
 1. open the az-deploy.sh and create an azure deployment for your app with azure cli
     1. use environment variables for the resource group name, app service plan name, app service name and location
     1. create azure app service
@@ -68,7 +68,7 @@ this repository was initially created for a microsoft stu internal event to show
     3. use node 18
     4. deploy your app
 
-## how to setup your own github copilot demo    
+## :exclamation_question_mark: how to setup your own github copilot demo    
 want to do your own github copilot demo? here are some tips:
 1. think about a simple but fitting use case (ask about the used programming languages in advance!)
 2. do a dry run and write down the steps you want to show
