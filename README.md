@@ -68,7 +68,7 @@ this repository was initially created for a microsoft stu internal event to show
     3. use node 18
     4. deploy your app
 
-## :exclamation_question_mark: how to setup your own github copilot demo    
+## how to setup your own github copilot demo    
 want to do your own github copilot demo? here are some tips:
 1. think about a simple but fitting use case (ask about the used programming languages in advance!)
 2. do a dry run and write down the steps you want to show
