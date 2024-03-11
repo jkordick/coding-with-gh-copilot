@@ -37,7 +37,7 @@ this repository was initially created for a microsoft stu internal event to show
 
 ### main tasks: 
 
-#### :e_mail: i: input, validation and event handling
+#### i: input, validation and event handling
 
 1. add an input field for an email address and a "Submit" button to the page
     1. bonus points: center it vertically, add a label and a placeholder
