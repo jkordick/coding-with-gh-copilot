@@ -12,6 +12,7 @@ this repository was initially created for a microsoft stu internal event to show
         1. [i: input, validation and event handling](#i-input-validation-and-event-handling)
         2. [ii: write your own scissors, paper, stone game](#scissors-ii-write-your-own-scissors-paper-stone-game)
         3. [iii: translate your javascript code to python](#iii-translate-your-javascript-code-to-python)
+    4. [alternative main tasks (less coding intensive)](#-alternative-main-task-less-coding-intensive)
     3. [bonus task (only locally!!): deployment](#trophy-bonus-task-only-locally-deployment)
 3. [how to setup your own github copilot demo](#how-to-setup-your-own-github-copilot-demo)
 
@@ -73,7 +74,7 @@ this repository was initially created for a microsoft stu internal event to show
 2. use github copilot to translate your javascript code to python
 3. run your python code in the terminal and play the 
 
-### 📝 alternative main task (less coding intensive)
+### 📝 alternative main tasks (less coding intensive)
 1. open the `app/utils.py` file
 2. let github copilot chat explain you the code
 3. add meaningful comments to the code (rule of thumb for good comments: if you open the file in roundabout 6 months again, they should help you understand the code asap again :))
