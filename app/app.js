@@ -38,4 +38,6 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+console.log(`App is running on http://localhost:3000`);
+
 module.exports = app;
