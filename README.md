@@ -79,7 +79,8 @@ this repository was initially created for a microsoft stu internal event to show
 2. let github copilot chat explain you the code
 3. add meaningful comments to the code (rule of thumb for good comments: if you open the file in roundabout 6 months again, they should help you understand the code asap again :))
 4. distribute the regular expressions to different functions
-5. bonus ✨: write tests for the functions
+5. oh no! there is a bug 🐞 in the code. try to find out where and fix it!
+6. bonus ✨: write tests for the functions
 
 
 ### 🏆 bonus task (only locally!!): deployment
