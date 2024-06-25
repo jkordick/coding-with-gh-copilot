@@ -42,4 +42,14 @@ describe('POST /hello', () => {
         expect(res.statusCode).toEqual(400);
         expect(res.text).toEqual('Error: No names provided');
     });
+
+    it('should correctly handle names with special characters', async () => {
+        const res = await request(app)
+            .post('/hello')
+            .send({ names: ['Alice-Bob', 'Charlie_D', 'Eve!'] });
+        expect(res.statusCode).toEqual(200);
+        expect(res.text).toEqual('HELLO WORLD, Alice-Bob, Charlie_D, Eve!!');
+    });
 });
+
+
