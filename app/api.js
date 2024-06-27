@@ -42,4 +42,12 @@ describe('POST /hello', () => {
         expect(res.statusCode).toEqual(400);
         expect(res.text).toEqual('Error: No names provided');
     });
+
+    it('should return an error for invalid names input type', async () => {
+        const res = await request(app)
+            .post('/hello')
+            .send({ names: "Alice" }); // Ungültiger Typ, sollte ein Array sein
+        expect(res.statusCode).toEqual(400);
+        expect(res.text).toEqual('Error: Invalid input type for names');
+    });
 });
