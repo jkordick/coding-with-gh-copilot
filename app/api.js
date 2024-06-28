@@ -42,4 +42,12 @@ describe('POST /hello', () => {
         expect(res.statusCode).toEqual(400);
         expect(res.text).toEqual('Error: No names provided');
     });
+
+    it('sollte einen Fehler zurückgeben, wenn Namen nicht als Array übergeben werden', async () => {
+        const res = await request(app)
+            .post('/hello')
+            .send({ names: 'Alice' }); // Namen nicht als Array
+        expect(res.statusCode).toEqual(400);
+        expect(res.text).toEqual('Error: Names must be provided as an array');
+    });
 });
