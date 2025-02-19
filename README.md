@@ -103,3 +103,58 @@ want to do your own github copilot demo? here are some tips:
     3. generate whole html page
     4. let github copilot chat explain a piece of code
     5. let github copilot chat write a test (and explain it)
+
+## API Documentation
+
+### `/hello` Endpoint
+
+- **URL:** `/hello`
+- **Method:** `POST`
+- **Request Body:**
+  - `names` (array of strings): List of names to include in the greeting message.
+- **Response:**
+  - `200 OK`: Returns a greeting message with the provided names.
+
+#### Example Request
+
+```json
+{
+  "names": ["John", "Jane"]
+}
+```
+
+#### Example Response
+
+```
+HELLO WORLD, John, Jane!
+```
+
+### `/getUser` Endpoint
+
+- **URL:** `/getUser`
+- **Method:** `GET`
+- **Response:**
+  - `200 OK`: Returns a JSON object with user details.
+
+#### Example Response
+
+```json
+{
+  "id": 1,
+  "name": "John Doe",
+  "email": "john.doe@example.com"
+}
+```
+
+## Running Tests
+
+To run the test cases for the `/hello` endpoint, follow these steps:
+
+1. Navigate to the `app` directory.
+2. Run the following command:
+
+```bash
+npm test
+```
+
+This will execute the test cases using `supertest` and validate the responses for different scenarios.

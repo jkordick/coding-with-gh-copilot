@@ -11,35 +11,15 @@ app.post('/hello', (req, res) => {
     res.send(message);
 });
 
-app.listen(port, () => {
-    console.log(`Server listening on port ${port}`);
+app.get('/getUser', (req, res) => {
+    const user = {
+        id: 1,
+        name: 'John Doe',
+        email: 'john.doe@example.com'
+    };
+    res.json(user);
 });
 
-const request = require('supertest');
-const app = require('./app');
-
-describe('POST /hello', () => {
-    it('should return "HELLO WORLD" with one name', async () => {
-        const res = await request(app)
-            .post('/hello')
-            .send({ names: ['Alice'] });
-        expect(res.statusCode).toEqual(200);
-        expect(res.text).toEqual('HELLO WORLD, Alice!');
-    });
-
-    it('should return "HELLO WORLD" with multiple names', async () => {
-        const res = await request(app)
-            .post('/hello')
-            .send({ names: ['Alice', 'Bob', 'Charlie'] });
-        expect(res.statusCode).toEqual(200);
-        expect(res.text).toEqual('HELLO WORLD, Alice, Bob, Charlie!');
-    });
-
-    it('should return an error with no names', async () => {
-        const res = await request(app)
-            .post('/hello')
-            .send({});
-        expect(res.statusCode).toEqual(400);
-        expect(res.text).toEqual('Error: No names provided');
-    });
+app.listen(port, () => {
+    console.log(`Server listening on port ${port}`);
 });
