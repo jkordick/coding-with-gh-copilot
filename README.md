@@ -12,8 +12,12 @@ this repository was initially created for a microsoft stu internal event to show
         1. [i: input, validation and event handling](#i-input-validation-and-event-handling)
         2. [ii: write your own scissors, paper, stone game](#scissors-ii-write-your-own-scissors-paper-stone-game)
         3. [iii: translate your javascript code to python](#iii-translate-your-javascript-code-to-python)
+    3. [advanced copilot features](#-advanced-copilot-features)
+        1. [i: github copilot extensions](#i-github-copilot-extensions)
+        2. [ii: github copilot edits](#ii-github-copilot-edits)
+        3. [iii: github copilot agent mode](#iii-github-copilot-agent-mode)
     4. [alternative main tasks (less coding intensive)](#-alternative-main-task-less-coding-intensive)
-    3. [bonus task (only locally!!): deployment](#trophy-bonus-task-only-locally-deployment)
+    5. [bonus task (only locally!!): deployment](#trophy-bonus-task-only-locally-deployment)
 3. [how to setup your own github copilot demo](#how-to-setup-your-own-github-copilot-demo)
 
 ## ▶️ pre-requisites
@@ -35,6 +39,7 @@ this repository was initially created for a microsoft stu internal event to show
             1. [vscode](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
             2. [visual studio](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs)
             3. [jetbrains ides](https://plugins.jetbrains.com/plugin/17718-github-copilot)
+            4. make sure you also install [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat) for extensions, edits and agent mode features
         2. install everything needed on your local pc (but not today - we use github codespaces!)
     3. have fun coding with github copilot! 🎉
 
@@ -74,6 +79,63 @@ this repository was initially created for a microsoft stu internal event to show
 2. use github copilot to translate your javascript code to python
 3. run your python code in the terminal and play the 
 
+### 🚀 advanced copilot features
+
+#### 🧩 i: github copilot extensions
+GitHub Copilot Extensions helps you solve coding tasks by connecting to external services and utilizing specialized knowledge.
+
+1. Access GitHub Copilot Extensions
+   1. Open the Copilot Chat panel in VS Code
+   2. Type `/` to see available commands including extensions
+   
+2. Try these extension tasks:
+   1. Generate documentation for your code
+      - Select a function from `app/utils.py`
+      - In the chat, type `/doc` to generate documentation for the selected function
+   
+   2. Use `/analyze` to review your code
+      - Select some code from any file
+      - In the chat, type `/analyze` to get insights about potential improvements
+   
+   3. Generate unit tests with `/tests`
+      - Select a function that needs testing
+      - Type `/tests` to generate appropriate unit tests
+
+#### ✏️ ii: github copilot edits
+GitHub Copilot Edits allows you to describe changes you want to make to your code and have Copilot implement them automatically.
+
+1. Try Copilot Edits:
+   1. Open `app/views/index.ejs`
+   2. Select the entire file or a section you want to modify
+   3. Press `Ctrl+I` (or `Cmd+I` on Mac) to open the inline chat
+   4. Type a prompt like "Add a footer with copyright information"
+   5. Review the suggested edits and accept them
+
+2. More Copilot Edits tasks:
+   1. Refactor code: Select a section of code and use Copilot Edits to improve its readability
+   2. Add error handling: Use Copilot Edits to add try/catch blocks around existing code
+   3. Convert styles: Ask Copilot to convert inline CSS to a separate CSS class
+
+#### 🤖 iii: github copilot agent mode
+GitHub Copilot Agent mode lets Copilot take the driver's seat to help you accomplish complex tasks with minimal guidance.
+
+1. Experience Agent mode:
+   1. Open the Copilot Chat panel
+   2. Type `/agent` to activate agent mode
+   3. Describe a complex task like "Create a simple weather dashboard that fetches data from an API"
+   4. Follow the agent's guidance and provide feedback when prompted
+
+2. Agent mode tasks:
+   1. Let the agent help you debug an issue in your code
+   2. Ask the agent to implement a new feature from scratch
+   3. Have the agent refactor a complex piece of code
+
+3. Tips for effective agent mode use:
+   1. Be specific about your requirements
+   2. Provide feedback to guide the agent
+   3. Review the agent's work carefully
+   4. Break complex tasks into smaller steps
+
 ### 📝 alternative main tasks (less coding intensive)
 1. open the `app/utils.py` file
 2. let github copilot chat explain you the code
@@ -103,3 +165,11 @@ want to do your own github copilot demo? here are some tips:
     3. generate whole html page
     4. let github copilot chat explain a piece of code
     5. let github copilot chat write a test (and explain it)
+    6. using extensions like `/doc` to generate documentation
+    7. using copilot edits to refactor code or add new features
+    8. demonstrate agent mode for solving complex tasks
+6. advanced demo tips:
+    1. prepare a "broken" piece of code and use agent mode to fix it
+    2. showcase how copilot can help with unfamiliar languages or frameworks
+    3. demonstrate how copilot can assist with learning new APIs
+    4. show how to use copilot for pair programming scenarios
