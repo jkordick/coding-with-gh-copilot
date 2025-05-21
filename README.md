@@ -101,6 +101,12 @@ GitHub Copilot Extensions helps you solve coding tasks by connecting to external
       - Select a function that needs testing
       - Type `/tests` to generate appropriate unit tests
 
+3. Practice files:
+   - JavaScript: Open `app/copilot-practice.js` to practice with a weather app example
+   - Python: Open `app/copilot_practice.py` to practice with a Python version
+   - API: Open `app/routes/api-practice.js` to practice with a REST API
+   - Data Analysis: Open `app/data_analysis_practice.py` for data science tasks
+
 #### ✏️ ii: github copilot edits
 GitHub Copilot Edits allows you to describe changes you want to make to your code and have Copilot implement them automatically.
 
@@ -115,6 +121,11 @@ GitHub Copilot Edits allows you to describe changes you want to make to your cod
    1. Refactor code: Select a section of code and use Copilot Edits to improve its readability
    2. Add error handling: Use Copilot Edits to add try/catch blocks around existing code
    3. Convert styles: Ask Copilot to convert inline CSS to a separate CSS class
+
+3. Practice files:
+   - For frontend tasks: Use `app/copilot-practice.js` to add UI components
+   - For backend tasks: Use `app/routes/api-practice.js` to enhance API endpoints
+   - For data analysis: Use `app/data_analysis_practice.py` to improve visualizations
 
 #### 🤖 iii: github copilot agent mode
 GitHub Copilot Agent mode lets Copilot take the driver's seat to help you accomplish complex tasks with minimal guidance.
@@ -135,6 +146,11 @@ GitHub Copilot Agent mode lets Copilot take the driver's seat to help you accomp
    2. Provide feedback to guide the agent
    3. Review the agent's work carefully
    4. Break complex tasks into smaller steps
+
+4. Practice files:
+   - Try implementing the TODO items in `app/copilot-practice.js` or `app/copilot_practice.py`
+   - Ask agent to complete the API endpoints in `app/routes/api-practice.js`
+   - Have agent implement advanced analytics in `app/data_analysis_practice.py`
 
 ### 📝 alternative main tasks (less coding intensive)
 1. open the `app/utils.py` file
