@@ -14,7 +14,8 @@ this repository was initially created for a microsoft stu internal event to show
         3. [iii: translate your javascript code to python](#iii-translate-your-javascript-code-to-python)
     4. [alternative main tasks (less coding intensive)](#-alternative-main-task-less-coding-intensive)
     3. [bonus task (only locally!!): deployment](#trophy-bonus-task-only-locally-deployment)
-3. [how to setup your own github copilot demo](#how-to-setup-your-own-github-copilot-demo)
+3. [c# learning path](#c-learning-path)
+4. [how to setup your own github copilot demo](#how-to-setup-your-own-github-copilot-demo)
 
 ## ▶️ pre-requisites
 1. create a [github account](https://github.com/signup)  
@@ -90,6 +91,23 @@ this repository was initially created for a microsoft stu internal event to show
     2. create a linux app service plan
     3. use node 18
     4. deploy your app
+
+## 🔷 c# learning path
+Want to learn how to use GitHub Copilot with C#? Check out our dedicated C# learning path:
+
+1. Navigate to the `app/csharp-examples` directory to find a comprehensive set of examples
+2. The learning path includes:
+   1. **Basic C# Syntax and Structure**: Learn how GitHub Copilot can help with creating classes, methods, and properties
+   2. **Working with Collections and LINQ**: Discover how Copilot can assist with data manipulation using LINQ
+   3. **Console Application with Input Validation**: Build a simple application with input validation
+   4. **Rock, Paper, Scissors Game**: Create a complete game implementation
+   5. **Unit Testing**: Learn how GitHub Copilot can help you write effective unit tests
+
+Each example includes:
+- A detailed README with tasks to complete
+- Solution code to compare your implementation
+- Tips for using GitHub Copilot effectively with C#
+
 
 ## ✏️ 🎉 how to setup your own github copilot demo    
 want to do your own github copilot demo? here are some tips:
